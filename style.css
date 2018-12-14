@@ -61,6 +61,7 @@ main{
 #locaties{
     float: left;
     margin-right: 25px;
+    width: 50%;
 }
 #special{
     margin-left:50px; width: 40%; float: left;
@@ -70,7 +71,7 @@ main{
     width: 40%; float: left;
 }
 #barber, #map{
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
 }
 #images{
