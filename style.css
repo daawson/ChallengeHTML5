@@ -70,6 +70,11 @@ main{
 #tspecial{
     width: 40%; float: left;
 }
+#game{
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
 #barber, #map{
     width: 100%;
     margin: 0 auto;

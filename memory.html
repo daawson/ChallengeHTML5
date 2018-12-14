@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        img{
+            cursor: pointer;
+            float: left;
+            max-width: 100px;
+            height: auto;
+            transition: ease 0.5s;
+            border-radius: 50%;
+        }
+        p#points{
+            margin: 0;
+            float: left;
+            font-size: 28px;
+            width: 50%;
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+        }
+        button#reset{
+            float: left;
+            width: 50%;
+            height: 50px;
+        }
+    </style>
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <script src="memory.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="show()">
+    <nav>
+        <img id="logo" src="img/logo.jpeg"><br>
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="producten.html">Producten</a></li>
+            <li><a href="salons.html">Salons</a></li>
+            <li><a href="openingstijden.html">Openingstijden</a></li>
+            <li><a href="memory.html">Kapsel-memory</a></li>
+        </ol>
+    </nav>
+    <main>
+        <div id="game">
+            <button id="reset" onclick="reset()">RESET</button>
+            <p id="points">0</p>
+        </div>
+    </main>
+    </body>
+</html>
