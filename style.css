@@ -16,13 +16,23 @@ table, tr, td{
 #map{
     width: 1024px;
 }
+form{
+    width: 100%;
+    margin-top: 5px;
+    border: 1px dotted lightblue;
+}
 @media only screen and (max-width: 550px) {
     body{
         width: 100%;
         margin: 0 auto;
+        font-size: 14px;
     }
 
     table, tr, td{border: 0;}
+    table{
+        width: 90%;
+        margin: 0 auto;
+    }
     table td{
         height: 30px;
         border-bottom: 1px solid black;
@@ -72,4 +82,6 @@ table, tr, td{
         width: 100%;
         height: auto;
     }
+
+
 }
