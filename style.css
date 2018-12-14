@@ -2,6 +2,10 @@ html{
     font-family: 'Oswald:300', sans-serif;
 }
 
+body{
+    width: 80%;
+    margin: 0 auto;
+}
 h1, h2, h3{
     font-family: 'Oswald:700', sans-serif;
 }
@@ -21,6 +25,71 @@ form{
     margin-top: 5px;
     border: 1px dotted lightblue;
 }
+#logo{
+    float:left;
+}
+ol{
+    margin-top: 75px;
+    list-style: none;
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+ol li{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+ol li a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    background-color: black;
+}
+#logo{
+    filter: invert(100%);
+}
+main{
+    float: left;
+    width: 100%;
+}
+#locaties{
+    float: left;
+    margin-right: 25px;
+}
+#special{
+    margin-left:50px; width: 40%; float: left;
+}
+
+#tspecial{
+    width: 40%; float: left;
+}
+#barber, #map{
+    width: 1024px;
+    margin: 0 auto;
+}
+#images{
+    width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+    #special{float: none; width: 100%;margin: 0 auto;}
+    #tspecial{float: none; width: 100%;margin: 0 auto;}
+    #barber, #map, #locaties{width: 100%;}
+    #images{width: 90%;}
+    ol{
+        float: left;
+        width: 20%;
+    }
+    ol li{
+        width: 25%;
+        float: none;
+    }
+}
 @media only screen and (max-width: 550px) {
     body{
         width: 100%;
@@ -38,6 +107,7 @@ form{
         border-bottom: 1px solid black;
     }
     nav{
+        float: none;
         width: 90%;
         align-content: center;
         text-align: center;
@@ -47,6 +117,7 @@ form{
         padding-bottom: 20px;
     }
     main{
+        float: none;
         text-align: center;
         width: 90%;
         margin: auto;
@@ -54,12 +125,21 @@ form{
     img{
         margin-bottom: -10px;
     }
+    ol, li{
+        float: none;
+    }
+    ol{
+        margin: 15px auto 0;
+    }
     ol li{
+        float: none;
         list-style: none;
         margin-right: 50px;
+        color: white;
     }
 
     #logo{
+        float: none;
         filter: invert(100%);
     }
 
@@ -68,7 +148,8 @@ form{
         font-size: 21px;
     }
 
-    a{
+    ol li a{
+        float: none;
         text-decoration: none;
         color: white;
     }
