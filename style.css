@@ -13,7 +13,9 @@ table, tr, td{
     border: 1px solid black;
 }
 
-
+#map{
+    width: 1024px;
+}
 @media only screen and (max-width: 550px) {
     body{
         width: 100%;
@@ -26,7 +28,7 @@ table, tr, td{
         border-bottom: 1px solid black;
     }
     nav{
-        width: 100%;
+        width: 90%;
         align-content: center;
         text-align: center;
         margin: 0 auto;
@@ -56,10 +58,18 @@ table, tr, td{
         font-size: 21px;
     }
 
-
-
     a{
         text-decoration: none;
         color: white;
+    }
+
+    #barber{
+        width: 100%;
+        height: auto;
+    }
+
+    #map{
+        width: 100%;
+        height: auto;
     }
 }
